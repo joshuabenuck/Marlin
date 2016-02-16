@@ -27,7 +27,7 @@
 	#define MACHINE_NAME "Ultimaker"
 	#define FIRMWARE_URL "http://firmware.ultimaker.com"
 #else
-	#define MACHINE_NAME "Mendel"
+	#define MACHINE_NAME "MakerFarm"
 	#define FIRMWARE_URL "http://www.mendel-parts.com"
 #endif
 
@@ -37,7 +37,7 @@
 #if LANGUAGE_CHOICE == 1
 
 // LCD Menu Messages
-	#define WELCOME_MSG MACHINE_NAME " Ready."
+	#define WELCOME_MSG MACHINE_NAME " I3 Ready."
 	#define MSG_SD_INSERTED "Card inserted"
 	#define MSG_SD_REMOVED "Card removed"
 	#define MSG_MAIN "Main"
