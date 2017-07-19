@@ -542,7 +542,7 @@
 
 
 // uncomment one of the following lines for RAMPS v1.3 or v1.0, comment both for v1.2 or 1.1
-// #define RAMPS_V_1_3
+#define RAMPS_V_1_3
 // #define RAMPS_V_1_0
 
 
@@ -593,9 +593,12 @@
 
   #else
 
-    #define X_STEP_PIN         54
-    #define X_DIR_PIN          55
-    #define X_ENABLE_PIN       38
+    //#define X_STEP_PIN         54
+    //#define X_DIR_PIN          55
+    //#define X_ENABLE_PIN       38
+    #define X_STEP_PIN         36
+    #define X_DIR_PIN          34
+    #define X_ENABLE_PIN       30
     #define X_MIN_PIN           3
     #define X_MAX_PIN           2
 
@@ -623,9 +626,12 @@
     #define E0_DIR_PIN         28
     #define E0_ENABLE_PIN      24
 
-    #define E1_STEP_PIN        36
-    #define E1_DIR_PIN         34
-    #define E1_ENABLE_PIN      30
+    #define E1_STEP_PIN        54
+    #define E1_DIR_PIN         55
+    #define E1_ENABLE_PIN      38
+    //#define E1_STEP_PIN        36
+    //#define E1_DIR_PIN         34
+    //#define E1_ENABLE_PIN      30
 
 #if MB(RAMPS_13_EEB)  //FMM added for Filament Extruder
 #ifdef FILAMENT_SENSOR
